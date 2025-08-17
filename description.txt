@@ -5,5 +5,12 @@ mkdir pizzastack
 
 yarn create react-app --template typescript front
 
+
+install tailwind css
+
+yarn add tailwindcss postcss autoprefixer -D
+
+yarn run tailwindcss init -p
+
 -----------------------------------------------
-00 : 00 : 00
+00 : 07 : 52
