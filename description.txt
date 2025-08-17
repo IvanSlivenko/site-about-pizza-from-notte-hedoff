@@ -1,0 +1,9 @@
+https://youtu.be/BQtFdmcFXBM
+
+
+mkdir pizzastack
+
+yarn create react-app --template typescript front
+
+-----------------------------------------------
+00 : 00 : 00
