@@ -12,5 +12,14 @@ yarn add tailwindcss postcss autoprefixer -D
 
 yarn run tailwindcss init -p
 
+
+
+yarn add storybook -D
+
+yarn storybook init
+yes
+
+
+
 -----------------------------------------------
 00 : 08 : 38
