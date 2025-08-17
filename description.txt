@@ -20,6 +20,11 @@ yarn storybook init
 yes
 
 
+yarn add @craco/craco -D
+
+yarn add react-app-alias -D
+
+
 
 -----------------------------------------------
-00 : 08 : 38
+00 : 17 : 52
