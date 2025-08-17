@@ -13,4 +13,4 @@ yarn add tailwindcss postcss autoprefixer -D
 yarn run tailwindcss init -p
 
 -----------------------------------------------
-00 : 07 : 52
+00 : 08 : 38
