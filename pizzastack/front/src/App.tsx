@@ -1,6 +1,9 @@
 export const  App = () => {
   return (
-    <h1 className=" font-bold text-3xl text-green-500">Pizza Stack from UmanProger</h1>
+    <div className="h-96">
+      <h1 className=" h-full w-full bg-black font-bold text-3xl text-white">Pizza Stack from UmanProger</h1>
+    </div>
+    
   );
 }
 
