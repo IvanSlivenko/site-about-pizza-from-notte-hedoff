@@ -1,4 +1,6 @@
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 import type { StorybookConfig } from '@storybook/react-webpack5';
+
 
 const config: StorybookConfig = {
   "stories": [
@@ -15,8 +17,20 @@ const config: StorybookConfig = {
     "name": "@storybook/react-webpack5",
     "options": {}
   },
-  "staticDirs": [
-    "..\\public"
+  webpackFinal: async (config) => {
+    if (config.resolve) {
+      if (!config.resolve.plugins) {
+        config.resolve.plugins = [];
+      }
+      config.resolve.plugins.push(new TsconfigPathsPlugin());
+    }
+    return config;
+  },
+  // "staticDirs": [
+  //   "..\\public"
+  // ]
+  staticDirs: [
+    "../public"
   ]
 };
 export default config;

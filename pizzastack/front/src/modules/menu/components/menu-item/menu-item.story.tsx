@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
-import { MenuItem } from './menu-item.component';
+import { MenuItem } from '@app/modules/menu/components/menu-item/menu-item.component';
 
 
 const meta = {
@@ -13,7 +13,7 @@ type Story = StoryObj<typeof meta>;
 
 export const View: Story = {
   args: {
-     imagePath: '/assets/flowers/5.jpg',
+    imagePath: '/assets/flowers/5.jpg',
     weight: 15,
     title: 'Троянда',
     ingredients: 'квітка на стеблі, свіжозрізана',

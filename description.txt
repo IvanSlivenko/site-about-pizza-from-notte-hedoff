@@ -37,6 +37,17 @@ yarn add -D react-app-alias
 
 https://youtu.be/SCsbX8rTYb4
 
+yarn add tsconfig-paths-webpack-plugin -D
+
 
 ------------------------------------------------------
 00 : 32 : 42
+
+
+
+----------------------------------------------------- Lesson 3
+
+https://youtu.be/dEtcf3E8sMU
+
+-----------------------------------------------------
+00 : 00 : 00
