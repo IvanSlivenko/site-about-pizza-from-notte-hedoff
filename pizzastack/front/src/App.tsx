@@ -1,12 +1,21 @@
+import { Footer } from "./common/components/footer/footer.components";
+import { Header } from "./common/components/header/header.component";
+import { MenuList } from "./modules/menu/components/menu-list/menu-list.component";
+import flowers from "@app/moks/flovers.json"
 
 export const  App = () => {
   return (
-    <div className="h-96" style={{ 
+    <div className="h-full" style={{ 
       backgroundImage: `url('assets/total_fone/gras.jpg')`, 
       // backgroundRepeat: "no-repeat",
       // backgroundSize: "cover",
       }} >
-      <h1 className=" h-full w-full font-bold text-3xl text-white">Pizza Stack from UmanProger</h1>
+      <Header/>
+      <div className="mx-12">
+        <MenuList items={ flowers}/>
+      </div>
+      
+      <Footer/>
     </div>
     
   );

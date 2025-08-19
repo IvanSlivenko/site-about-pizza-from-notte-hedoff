@@ -50,4 +50,4 @@ yarn add tsconfig-paths-webpack-plugin -D
 https://youtu.be/dEtcf3E8sMU
 
 -----------------------------------------------------
-00 : 24 : 17
+00 : 33 : 03

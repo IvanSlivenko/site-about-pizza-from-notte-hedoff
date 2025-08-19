@@ -5,7 +5,7 @@ const Background = "/assets/total_fone/sand.jpg";
 export const Footer = () => {
   return (
     <div
-      className="pt-12 px-12  pb-8 shadow-xl shadow-black/80 rounded-t-xl"
+      className="p-12 shadow-[0_-10px_20px] shadow-black/50 mt-10"
       style={{
         backgroundImage: `url(${Background})`,
         // backgroundRepeat: "no-repeat",
