@@ -2,7 +2,7 @@ const Background = "/assets/total_fone/skay.jpg";
 
 export const Header = () => {
   return (
-    <div className="h-12 shadow-xl shadow-black/80 px-6"
+    <div className="h-12 shadow-xl shadow-black/80 px-6 rounded-b-xl"
     style={{ 
             backgroundImage: `url(${Background})` ,
                 backgroundRepeat: "no-repeat",
