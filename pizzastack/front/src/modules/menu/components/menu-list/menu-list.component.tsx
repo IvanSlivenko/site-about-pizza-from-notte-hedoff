@@ -1,4 +1,3 @@
-import flowersList from "@app/moks/flovers.json";
 import { MenuItem } from "@app/modules/menu/components/menu-item/menu-item.component";
 import { Flower } from "../../types/flower";
 import { FC } from "react";
