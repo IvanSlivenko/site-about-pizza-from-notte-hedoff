@@ -6,7 +6,7 @@ import flowers from "@app/moks/flovers.json"
 export const  App = () => {
   return (
     <div className="h-full" style={{ 
-      backgroundImage: `url('assets/total_fone/gras.jpg')`, 
+      backgroundImage: `url('assets/total_fone/f_6.jpg')`, 
       // backgroundRepeat: "no-repeat",
       // backgroundSize: "cover",
       }} >

@@ -5,12 +5,12 @@ const Background = "/assets/total_fone/sand.jpg";
 export const Footer = () => {
   return (
     <div
-      className="p-12 shadow-[0_-10px_20px] shadow-black/50 mt-10"
-      style={{
-        backgroundImage: `url(${Background})`,
-        // backgroundRepeat: "no-repeat",
-        // backgroundSize: "cover"
-      }}
+      className="p-12 shadow-[0_-10px_20px] shadow-black/50 mt-10 bg-slate-950"
+      // style={{
+      //   backgroundImage: `url(${Background})`,
+      //   // backgroundRepeat: "no-repeat",
+      //   // backgroundSize: "cover"
+      // }}
     >
       <div>
         <div className="mb-4">

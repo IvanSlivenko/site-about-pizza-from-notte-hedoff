@@ -14,12 +14,14 @@ interface MenuItemProps {
 
 export const MenuItem: FC<MenuItemProps> = ({ imagePath, weight, title, ingredients, price}) => {
     return (
-        <div className="w-96 shadow-xl rounded-2xl object-cover object-center" style={{ 
-            backgroundImage: `url(${cardBackground})` ,
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
+        <div className="w-96 shadow-xl rounded-2xl object-cover object-center bg-slate-900" 
+            // style={{ 
+            //     backgroundImage: `url(${cardBackground})` ,
+            //     backgroundRepeat: "no-repeat",
+            //     backgroundSize: "cover",
             
-            }} >
+            // }} 
+            >
              <div className="relative">
                 <img className="object-cover object-top w-full h-[15rem] rounded-t-2xl" 
                     src={imagePath} 
