@@ -26,11 +26,13 @@ export const MenuItem: FC<MenuItemProps> = ({ imagePath, weight, title, ingredie
                     alt={title} 
                     
                 />
-                <span className="absolute bottom-1.5 right-1.5 rounded-[2rem] px-2 pb-1 text-sm text-white" style={{ 
-                    backgroundImage: `url(${cardBackground})`,
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover", 
-            }}>
+                <span className="absolute bottom-1.5 right-1.5 rounded-[2rem] px-2 pb-1 text-sm text-white bg-gray-700" 
+                // style={{ 
+                //     backgroundImage: `url(${cardBackground})`,
+                //     backgroundRepeat: "no-repeat",
+                //     backgroundSize: "cover", 
+                //         }}
+                >
                 - {weight} %</span>
                 
 
